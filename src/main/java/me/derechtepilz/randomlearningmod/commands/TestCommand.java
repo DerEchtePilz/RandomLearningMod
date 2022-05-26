@@ -25,7 +25,6 @@ public class TestCommand {
         ServerCommandSource source = context.getSource();
         ServerPlayerEntity playerEntity = source.getPlayer();
         if (itemStackArgument != null) {
-            CommandSuggestor
             ItemStack item = itemStackArgument.createStack(1, true);
             playerEntity.sendMessage(Text.of("You executed the command /test and provided the item: " + item.getName().getString()), false);
         } else {
