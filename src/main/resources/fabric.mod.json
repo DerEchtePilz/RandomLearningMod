@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "randomlearningmod",
+  "version": "1.0.0",
+  "name": "RandomLearningMod",
+  "description": "This mod represents my learning progress with Fabric and modding!",
+  "authors": [
+    "DerEchtePilz"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/randomlearningmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.derechtepilz.randomlearningmod.client.RandomLearningModClient"
+    ],
+    "main": [
+      "me.derechtepilz.randomlearningmod.RandomLearningMod"
+    ]
+  },
+  "mixins": [
+    "randomlearningmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
