@@ -1,0 +1,5 @@
+{
+  "gamerule.shouldPigsFly": "Should Pigs fly?",
+  "gamerule.durationCommand": "Waiting time between commands in ticks",
+  "item.randomlearningmod.op_item": "OP ITEM"
+}
