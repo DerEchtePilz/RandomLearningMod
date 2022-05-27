@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " + "
+  ],
+  "key": {
+    "#": {
+      "item": "randomlearningmod:cobalt_fragment"
+    },
+    "+": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "randomlearningmod:cobalt_sword"
+  }
+}

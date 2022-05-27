@@ -1,14 +1,14 @@
-package me.derechtepilz.randomlearningmod.client;
+package me.derechtepilz.randomlearningmod;
 
 import me.derechtepilz.randomlearningmod.commands.TestCommand;
 import me.derechtepilz.randomlearningmod.gamerules.TestGameRule;
-import me.derechtepilz.randomlearningmod.items.TestItems;
+import me.derechtepilz.randomlearningmod.items.ModItems;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
-@net.fabricmc.api.Environment(net.fabricmc.api.EnvType.CLIENT)
+@Environment(EnvType.CLIENT)
 public class RandomLearningModClient implements ClientModInitializer {
 
     public static final String MOD_ID = "randomlearningmod";
@@ -19,6 +19,6 @@ public class RandomLearningModClient implements ClientModInitializer {
             TestCommand.register(dispatcher);
         });
         TestGameRule.registerRules();
-        TestItems.registerItems();
+        ModItems.registerItems();
     }
 }

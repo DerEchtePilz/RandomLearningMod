@@ -1,9 +1,12 @@
 package me.derechtepilz.randomlearningmod.gamerules;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
 import net.minecraft.world.GameRules;
 
+@Environment(EnvType.CLIENT)
 public class TestGameRule {
 
     private static GameRules.Key<GameRules.BooleanRule> SHOULD_PIGS_FLY;

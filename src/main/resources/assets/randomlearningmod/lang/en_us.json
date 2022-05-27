@@ -1,5 +1,11 @@
 {
   "gamerule.shouldPigsFly": "Should Pigs fly?",
   "gamerule.durationCommand": "Waiting time between commands in ticks",
-  "item.randomlearningmod.op_item": "OP ITEM"
+  "itemGroup.randomlearningmod.epic_items": "Epic Items",
+  "item.randomlearningmod.op_item": "OP ITEM",
+  "item.randomlearningmod.cobalt_sword": "Cobalt Sword",
+  "item.randomlearningmod.cobalt_fragment": "Cobalt Fragment",
+  "item.randomlearningmod.super_netherite_ingot": "Super Netherite Ingot",
+  "item.randomlearningmod.mining_core": "Mining Core",
+  "item.randomlearningmod.energy_core": "Energy Core"
 }
