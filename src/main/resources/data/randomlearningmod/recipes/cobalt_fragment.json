@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomlearningmod:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "randomlearningmod:cobalt_fragment",
+    "count": 9
+  }
+}

@@ -34,6 +34,6 @@ public class CoolToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.getOpItem());
+        return Ingredient.ofItems(ModItems.OP_ITEM);
     }
 }

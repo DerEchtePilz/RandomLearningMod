@@ -2,6 +2,8 @@
   "gamerule.shouldPigsFly": "Should Pigs fly?",
   "gamerule.durationCommand": "Waiting time between commands in ticks",
   "itemGroup.randomlearningmod.epic_items": "Epic Items",
+  "block.randomlearningmod.cobalt_ore": "Cobalt Ore",
+  "block.randomlearningmod.cobalt_block": "Cobalt Block",
   "item.randomlearningmod.op_item": "OP ITEM",
   "item.randomlearningmod.cobalt_sword": "Cobalt Sword",
   "item.randomlearningmod.cobalt_fragment": "Cobalt Fragment",

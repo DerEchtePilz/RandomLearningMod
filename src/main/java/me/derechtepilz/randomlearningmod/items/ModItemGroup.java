@@ -9,14 +9,16 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
     public static final ItemGroup EPIC_ITEMS = FabricItemGroupBuilder.create(
             new Identifier(RandomLearningModClient.MOD_ID, "epic_items"))
-            .icon(() -> new ItemStack(ModItems.getOpItem()))
+            .icon(() -> new ItemStack(ModItems.OP_ITEM))
             .appendItems(stacks -> {
-                stacks.add(ModItems.getOpItem().getDefaultStack());
-                stacks.add(ModItems.getMiningCore().getDefaultStack());
-                stacks.add(ModItems.getEnergyCore().getDefaultStack());
-                stacks.add(ModItems.getSuperNetheriteIngot().getDefaultStack());
-                stacks.add(ModItems.getCobaltSword().getDefaultStack());
-                stacks.add(ModItems.getCobaltFragment().getDefaultStack());
+                stacks.add(ModItems.OP_ITEM.getDefaultStack());
+                stacks.add(ModItems.MINING_CORE.getDefaultStack());
+                stacks.add(ModItems.ENERGY_CORE.getDefaultStack());
+                stacks.add(ModItems.SUPER_NETHERITE_INGOT.getDefaultStack());
+                stacks.add(ModItems.COBALT_SWORD.getDefaultStack());
+                stacks.add(ModItems.COBALT_FRAGMENT.getDefaultStack());
+                stacks.add(ModItems.COBALT_ORE.getDefaultStack());
+				stacks.add(ModItems.COBALT_BLOCK.getDefaultStack());
             })
             .build();
 }

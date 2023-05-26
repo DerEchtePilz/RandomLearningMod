@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cobalt_fragment",
+  "ingredient": {
+    "item": "randomlearningmod:cobalt_ore"
+  },
+  "result": "randomlearningmod:cobalt_fragment"
+}

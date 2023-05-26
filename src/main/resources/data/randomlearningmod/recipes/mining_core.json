@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D#D",
+    "#E#",
+    "D#D"
+  ],
+  "key": {
+    "E": {
+      "item": "randomlearningmod:energy_core"
+    },
+    "D": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "randomlearningmod:mining_core"
+  }
+}

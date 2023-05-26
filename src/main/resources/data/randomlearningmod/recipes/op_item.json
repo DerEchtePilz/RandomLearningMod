@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "+#+",
-    "#-#",
-    "+#+"
+    "P#P",
+    "#E#",
+    "P#P"
   ],
   "key": {
     "#": {
       "item": "randomlearningmod:mining_core"
     },
-    "+": {
+    "P": {
       "item": "randomlearningmod:super_netherite_ingot"
     },
-    "-": {
+    "E": {
       "item": "randomlearningmod:energy_core"
     }
   },
