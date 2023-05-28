@@ -3,9 +3,9 @@ package me.derechtepilz.randomlearningmod.items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class CoolToolMaterial implements ToolMaterial {
+public class CobaltMaterial implements ToolMaterial {
 
-    public static final CoolToolMaterial INSTANCE = new CoolToolMaterial();
+    public static final CobaltMaterial INSTANCE = new CobaltMaterial();
 
     @Override
     public int getDurability() {
@@ -14,7 +14,7 @@ public class CoolToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0;
+        return 10.0f;
     }
 
     @Override

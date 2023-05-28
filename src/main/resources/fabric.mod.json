@@ -12,8 +12,11 @@
   "icon": "assets/randomlearningmod/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "me.derechtepilz.randomlearningmod.datageneration.DataGeneration"
+    ],
     "client": [
-      "me.derechtepilz.randomlearningmod.RandomLearningModClient"
+      "me.derechtepilz.randomlearningmod.RandomLearningMod"
     ],
     "main": [
       "me.derechtepilz.randomlearningmod.RandomLearningMod"
